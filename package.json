@@ -5,7 +5,7 @@
     "main": "app.mjs",
     "tpye": "module",
     "scripts": {
-        "start": "pm2 start app.mjs"
+        "start": "node ."
     },
     "repository": {
         "type": "git",
