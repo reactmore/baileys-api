@@ -3,7 +3,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { WAConnection } from '@adiwajshing/baileys'
 import { toDataURL } from 'qrcode'
-import response from './response.js'
+import response from './response.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const sessions = new Map()

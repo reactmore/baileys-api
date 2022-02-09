@@ -1,9 +1,9 @@
 import { Router } from 'express'
 import { body, query } from 'express-validator'
-import requestValidator from './../middleware/requestValidator.js'
-import sessionValidator from './../middleware/sessionValidator.js'
-import * as controller from './../controllers/chatController.js'
-import getMessages from './../controllers/getMessages.js'
+import requestValidator from '../middleware/requestValidator.mjs'
+import sessionValidator from '../middleware/sessionValidator.mjs'
+import * as controller from '../controllers/chatController.mjs'
+import getMessages from '../controllers/getMessages.mjs'
 
 const router = Router()
 

@@ -1,6 +1,6 @@
 import { MessageType } from '@adiwajshing/baileys'
-import { getChatList, formatGroup } from './../whatsapp.js'
-import response from './../response.js'
+import { getChatList, formatGroup } from '../whatsapp.mjs'
+import response from '../response.mjs'
 
 const getList = (req, res) => {
     const { session } = res.locals

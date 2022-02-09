@@ -1,6 +1,6 @@
 import express from 'express'
-import routes from './routes.js'
-import { init } from './whatsapp.js'
+import routes from './routes.mjs'
+import { init } from './whatsapp.mjs'
 
 const app = express()
 const host = process.env.HOST ?? '127.0.0.1'
@@ -8,6 +8,7 @@ const port = process.env.PORT ?? 8000
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+
 app.use('/', routes)
 
 app.listen(port, host, () => {

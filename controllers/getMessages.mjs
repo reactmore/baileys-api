@@ -1,4 +1,4 @@
-import response from './../response.js'
+import response from '../response.mjs'
 
 const getMessages = (req, res) => {
     /* eslint-disable camelcase */

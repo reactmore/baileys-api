@@ -1,5 +1,5 @@
-import { isSessionExists, createSession, triggerDeleteSession } from './../whatsapp.js'
-import response from './../response.js'
+import { isSessionExists, createSession, triggerDeleteSession } from '../whatsapp.mjs'
+import response from '../response.mjs'
 
 const find = (req, res) => {
     if (isSessionExists(req.params.id)) {

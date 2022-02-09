@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import sessionRoutes from './routes/sessionRoutes.js'
-import chatRoutes from './routes/chatRoutes.js'
-import groupRoutes from './routes/groupRoutes.js'
-import response from './response.js'
+import sessionRoutes from './routes/sessionRoutes.mjs'
+import chatRoutes from './routes/chatRoutes.mjs'
+import groupRoutes from './routes/groupRoutes.mjs'
+import response from './response.mjs'
 
 const router = Router()
 

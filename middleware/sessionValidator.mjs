@@ -1,5 +1,5 @@
-import { getSession } from '../whatsapp.js'
-import response from './../response.js'
+import { getSession } from '../whatsapp.mjs'
+import response from '../response.mjs'
 
 const validate = (req, res, next) => {
     const session = getSession(req.query.id)
